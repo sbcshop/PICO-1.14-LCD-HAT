@@ -42,6 +42,6 @@
 <img src="https://github.com/sbcshop/Raspberry-Pi-Pico-RFID-Expansion/blob/main/images/thonny-interpreter.PNG" />
 
 * Click on green play button to run example of Pico 3V Relay HAT, You can either save this file on root location of PICO or on your Computer drive.
-* You can use Joystick to change background color.
+* You can use Joystick to change background color of LCD.
 
 
