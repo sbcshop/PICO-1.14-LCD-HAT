@@ -25,7 +25,7 @@
 
 ### Requirements
 
-* Pico 1.14" LCD HAT: (Buy it from : )
+* Pico 1.14" LCD HAT: (Buy it from : https://shop.sb-components.co.uk/products/1-14-lcd-hat-for-pico )
 * Raspberry Pi Pico (Buy it from : https://shop.sb-components.co.uk/collections/latest-collections/products/raspberry-pi-pico-board-with-header )
 * USB Cable
 
