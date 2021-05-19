@@ -40,27 +40,28 @@ if __name__=='__main__':
     LCD.lcd_show()
     
     while(1):
+        
         if(joyRight.value() == 0):
             print("joyRight press")
             LCD.fill(0x00f0)     #0x00ff for red color 
             LCD.lcd_show()
                   
-        if(joyDown.value() == 0):
+        elif(joyDown.value() == 0):
             print("joyDown press")
             LCD.fill(0x0f00)     #0x00ff for blue color 
             LCD.lcd_show()
 
-        if(joySel.value() == 0):
+        elif(joySel.value() == 0):
             print("joySel press")
             LCD.fill(0x000f)      #0x00ff for green color 
             LCD.lcd_show()
             
-        if(joyLeft.value() == 0):
+        elif(joyLeft.value() == 0):
             print("joyLeft press")
             LCD.fill(0x00ff)      #0x00ff for yellow color 
             LCD.lcd_show()
        
-        if(joyUp.value() == 0):
+        elif(joyUp.value() == 0):
             print("joyUp press")
             LCD.fill(0xfff0)      #0x00ff for pink color 
             LCD.lcd_show()
@@ -69,4 +70,4 @@ if __name__=='__main__':
             
     LCD.lcd_show()
     time.sleep(1)
-    LCD.fill(0xFFFF)
+    #LCD.fill(0xFFFF)
