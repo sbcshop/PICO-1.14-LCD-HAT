@@ -31,7 +31,7 @@
 * Raspberry Pi Pico (Buy it from : https://shop.sb-components.co.uk/collections/latest-collections/products/raspberry-pi-pico-board-with-header )
 * USB Cable
 
-### Steps :
+### Steps (Python):
 
 * Stack Raspberry Pi Pico on female header of Pico 1.14" LCD HAT.
 * Connect USB cable on Raspberry Pi Pico USB port.
@@ -47,3 +47,5 @@
 * You can use Joystick to change background color of LCD.
 
 
+### Steps (C++):
+To be added
