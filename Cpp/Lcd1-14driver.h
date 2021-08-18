@@ -1,5 +1,5 @@
 #pragma once
-//#include "Frame.h"
+#include "Frame.h"
 
 #define PIN_DC 8
 #define PIN_RST 12
@@ -18,13 +18,12 @@
 #define WHITE 0xFFFF
 
 //TODO: Maybe change the naming of theses?
-class Lcd1_14 { //: public Frame {
+class Lcd1_14 : public Frame {
 public:
-    uint8_t buffer[BUFFERLENGTH]; //TODO: Maybe make this configurable? (Also make this private but for now it's public just for testing)
-
     Lcd1_14();
     void LcdShow();
 private:
+    uint8_t buffer[BUFFERLENGTH]; //TODO: Maybe make this configurable?
     void LcdWriteCmd(uint8_t data);
     void LcdWriteData(uint8_t buf);
     void LcdInitDisplay();

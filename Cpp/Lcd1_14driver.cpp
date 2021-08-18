@@ -4,6 +4,7 @@
 #include "Lcd1-14driver.h"
 #define BAUDRATE 10000000
 
+//TODO: See why nothing happens on a Release build
 //TODO: Readd asserts
 static void InitAndSetDirection(uint gpio_pin, bool out){
     gpio_init(gpio_pin);
@@ -11,7 +12,7 @@ static void InitAndSetDirection(uint gpio_pin, bool out){
     gpio_set_dir(gpio_pin, out);
 }
 
-Lcd1_14::Lcd1_14() { //: Frame(buffer, WIDTH, HEIGHT) {
+Lcd1_14::Lcd1_14() : Frame(buffer, WIDTH, HEIGHT) {
     InitAndSetDirection(PIN_CS, GPIO_OUT);
     InitAndSetDirection(PIN_RST, GPIO_OUT);
 

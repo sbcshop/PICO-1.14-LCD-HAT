@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 pico_sdk_init()
 
-add_executable(Demo main.cpp ../Lcd1_14driver.cpp)
+add_executable(Demo main.cpp ../Lcd1_14driver.cpp ../Frame.cpp)
 
 # Link with the pico libraries
 target_link_libraries(Demo pico_stdlib hardware_spi)
